@@ -44,7 +44,7 @@ def process_redirect(url):
 
     redirect_response = redirect_request.get_response()
 
-    print(f'{redirect_response.get_redirect_url()} {redirect_response.get_redirect_status_code()}')
+    print(f'{redirect_response.get_redirect_url()} {redirect_response.get_redirect_status_code()} ({url})')
 
 
 start_time = time.time()
