@@ -8,7 +8,7 @@ from file import File
 from redirect import Redirect
 
 
-MAX_POOL_SIZE = 5
+MAX_POOL_SIZE = 10
 
 
 def start():
